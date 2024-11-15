@@ -1,7 +1,37 @@
-.DwnldBtn {
-    border-radius: 5%;
+header {
+    height: 5vh;
+    background-color: black;
 }
 
-main {
-    height: 1000px;
+#FirstSection {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+#FirstSection video{
+    top: 0;
+    align-self: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    min-width: calc((95vh / 9) * 16);
+    margin: auto;
+}
+
+#FirstSection div {
+    z-index: 1;
+    width: 100%;
+}
+
+.main-section {
+    position: absolute;
+    background-color: rgb(145, 39, 39);
+    padding-bottom: 1000px;
 }
